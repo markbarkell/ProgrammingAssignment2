@@ -3,7 +3,7 @@
 ##
 ## The makeCacheMatrix and the cacheSolveMatrix are implemented to store after calculating
 ## a matrix inverse so that the stored matrix inverse may be used to trade RAM space for 
-## lower times in calculation.
+## lower times in repeated calculation.
 ##
 ## Please Note, the implementation of this functionality leans very much upon
 ## the example code which is part of the assignment.   That example code
