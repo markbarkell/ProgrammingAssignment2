@@ -15,6 +15,7 @@
 ## into memory.
 
 makeCacheMatrix <- function(x = matrix()) {
+  ## Returns a container object for holding a cache.
   ci <- NULL
   set <- function(y) {
     x <<- y
